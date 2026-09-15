@@ -1,0 +1,31 @@
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Dependencies
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Runtime/session/auth data
+sessions/
+session/
+auth_info_baileys/
+baileys_auth_info/
+tmp/
+temp/
+
+# Database dumps / backups
+*.sql
+*.zip
+
+# OS files
+.DS_Store
+
+# Sensitive uploaded credential files
+client/public/media/UEgYpLWqNwlUQKNTFZ2OEiPM5fjwqnEU.json
+client/public/media/iMtNtqHFgisM4HOMKHFuDhNFNmUizTIy.json
